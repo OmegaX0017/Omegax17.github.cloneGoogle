@@ -1,0 +1,32 @@
+.Voltar {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.searchBar {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+    display: block;
+}
+.btnS {
+    margin: 5px;
+    position: relative;
+    margin-left: 430px;
+    margin-right: auto;
+    display: block;
+}
+#btnF {
+    margin: 5px;
+    position: relative;
+    top: -28px;
+    margin-left: auto;
+    margin-right: 430px;
+    display: block;
+}
+
+.ads {
+    margin: 5px;
+}
