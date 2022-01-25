@@ -29,4 +29,6 @@
 
 .ads {
     margin: 5px;
+    width: 200px;
+    text-align: left;
 }
