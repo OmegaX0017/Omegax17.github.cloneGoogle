@@ -3,11 +3,17 @@ body {
 }
 
 .Voltar {
+    color: white;
     position: absolute;
     right: 20px;
     top: 5px;
 }
 .searchBar {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: #e8eaed;
+    background-color: #202124;
+    border: 1px solid #5f6368;;
     border-radius: 10px;
     width: 300px;
     margin-left: auto;

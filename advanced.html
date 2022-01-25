@@ -2,15 +2,16 @@
 <html>
     <head>
         <title>imageS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="search.css">
     </head>
     <body>
         <div>
-            <form style="margin-top: 50px" action="https://www.google.com.br/advanced_search">
-                <input class="ads" type="text" name="q" placeholder="all these words:"><br>
-                <input class="ads" type="text" name="q" placeholder="this exact word or phrase:"><br>
-                <input class="ads" type="text" name="q" placeholder="any of these words:"><br>
-                <input class="ads" type="text" name="q" placeholder="none of these words:"><br>
+            <form style="margin-top: 50px" action="https://www.google.com.br/search?">
+                <input class="ads" type="text" name="as_q" placeholder="all these words:"><br>
+                <input class="ads" type="text" name="as_epq" placeholder="this exact word or phrase:"><br>
+                <input class="ads" type="text" name="as_oq" placeholder="any of these words:"><br>
+                <input class="ads" type="text" name="as_eq" placeholder="none of these words:"><br>
                 <input id="btnAS" style="margin: 5px;" type="submit" value="Google Search">
             </form>
         </div>
